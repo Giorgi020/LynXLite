@@ -1,0 +1,301 @@
+(ExpressProject "LynX_Lite"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/02/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "c:\mac\home\documents\documentswin\pcb_libs\capture_lib\dynamis_new.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "..\board")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lynx_lite.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Display_Online_DRC_Results "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "FALSE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "C:\MAC\HOME\DESKTOP\LYNX_LITE\LYNX_LITE.DRC")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Input Board File"
+       "c:\mac\home\desktop\lynx_lite\board\template_4_layer_jlc.brd")
+    ("Allegro Netlist Output Board File" "..\board\lynx_lite.brd"))
+  (Folder "Layout"
+    (File "..\board\lynx_lite.brd"
+      (Type "Board File")
+      (OutputBoard "..\board\lynx_lite.brd")
+      (InputBoard "..\board\template_4_layer_jlc.brd")
+      (NetListPath "..\board")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\lynx_lite.drc"
+      (Type "Report"))
+    (File ".\board\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\board\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\board\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\board\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\board\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\board\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\lynx_lite.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\board\netlist.log"
+      (Type "Log File")
+      (LogFile "c:\mac\home\desktop\lynx_lite\board\netlist.log"))
+    (File "..\board\netrev.lst"
+      (Type "Log File")
+      (LogFile "c:\mac\home\desktop\lynx_lite\board\netrev.lst"))
+    (File "..\board\eco.txt"
+      (Type "Log File")
+      (LogFile "c:\mac\home\desktop\lynx_lite\board\eco.txt"))
+    (File "..\board\genfeed.log"
+      (Type "Log File")
+      (LogFile "c:\mac\home\desktop\lynx_lite\board\genfeed.log")))
+  (PartMRUSelector
+    (FORO-VITE-M3
+      (FullPartName "FORO-VITE-M3.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    ("DIODE - SCHOTTKY"
+      (FullPartName "DIODE - SCHOTTKY.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HEADER-8
+      (FullPartName "HEADER-8.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (HEADER-5
+      (FullPartName "HEADER-5.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (HEADER-6
+      (FullPartName "HEADER-6.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HEADER-4
+      (FullPartName "HEADER-4.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (JUMPER_GOCCIA
+      (FullPartName "JUMPER_GOCCIA.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (NUP2105L
+      (FullPartName "NUP2105L.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    ("COMMON MODE CHOKE"
+      (FullPartName "COMMON MODE CHOKE.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (JUMPER_2
+      (FullPartName "JUMPER_2.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (JUMPER_3x1
+      (FullPartName "JUMPER_3x1.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (TJA1057GT/3
+      (FullPartName "TJA1057GT/3.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (RES-0805
+      (FullPartName "RES-0805.Normal")
+      (LibraryName
+         "\\MAC\HOME\DOCUMENTS\DOCUMENTS WIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HEADER-2x3
+      (FullPartName "HEADER-2x3.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (HEADER-SWD
+      (FullPartName "HEADER-SWD.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    ("SCHOTTKY RECTIFIER - CD-HD2x"
+      (FullPartName "SCHOTTKY RECTIFIER - CD-HD2x.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-R
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lynx_lite.dsn")
+      (Path "Design Resources" ".\lynx_lite.dsn" "A-MAIN")
+      (Path "Design Resources" ".\lynx_lite.dsn" "E-INTERFACES")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\lynx_lite.dsn" "A-MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 681"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1122 24 699")
+        (Scroll "0 0")
+        (Zoom "127")
+        (Occurrence "/"))
+      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
+      (Schematic "A-MAIN")
+      (Page "A1-BLOCK_DIAGRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1122 24 699")
+        (Scroll "0 0")
+        (Zoom "237")
+        (Occurrence "/D-T1S"))
+      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
+      (Schematic "D-T1S")
+      (Page "D1-T1S_MACPHY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1122 24 699")
+        (Scroll "0 0")
+        (Zoom "237")
+        (Occurrence "/C-POWER"))
+      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
+      (Schematic "C-POWER")
+      (Page "C1-REGULATORS"))))
