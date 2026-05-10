@@ -1,6 +1,6 @@
 (ExpressProject "LynX_Lite"
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/02/26]")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/09/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -70,7 +70,6 @@
     (DRC_Run_Simulation_Rules "FALSE")
     (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
     (DRC_Run_Custom_Rules "FALSE")
-    (DRC_Report_File "C:\MAC\HOME\DESKTOP\LYNX_LITE\LYNX_LITE.DRC")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "0")
     (ANNOTATE_Action "1")
@@ -89,7 +88,8 @@
     (width_End "80")
     ("Allegro Netlist Input Board File"
        "c:\mac\home\desktop\lynx_lite\board\template_4_layer_jlc.brd")
-    ("Allegro Netlist Output Board File" "..\board\lynx_lite.brd"))
+    ("Allegro Netlist Output Board File" "..\board\lynx_lite.brd")
+    (DRC_Report_File "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DRC"))
   (Folder "Layout"
     (File "..\board\lynx_lite.brd"
       (Type "Board File")
@@ -98,8 +98,6 @@
       (NetListPath "..\board")
       (ActiveBoard "1")))
   (Folder "Outputs"
-    (File ".\lynx_lite.drc"
-      (Type "Report"))
     (File ".\board\pstxnet.dat"
       (Type "Report")
       (DisplayName "pstxnet.dat"))
@@ -118,7 +116,7 @@
     (File "..\board\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File "..\lynx_lite.drc"
+    (File ".\lynx_lite.drc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -135,14 +133,27 @@
       (LogFile "c:\mac\home\desktop\lynx_lite\board\netlist.log"))
     (File "..\board\netrev.lst"
       (Type "Log File")
-      (LogFile "c:\mac\home\desktop\lynx_lite\board\netrev.lst"))
+      (LogFile "\\Mac\Home\Desktop\LynXLite\board\netrev.lst"))
     (File "..\board\eco.txt"
       (Type "Log File")
-      (LogFile "c:\mac\home\desktop\lynx_lite\board\eco.txt"))
+      (LogFile "\\Mac\Home\Desktop\LynXLite\board\eco.txt"))
     (File "..\board\genfeed.log"
       (Type "Log File")
-      (LogFile "c:\mac\home\desktop\lynx_lite\board\genfeed.log")))
+      (LogFile "\\Mac\Home\Desktop\LynXLite\board\genfeed.log"))
+    (File "..\board\netlist.log"
+      (Type "Log File")
+      (LogFile "\\Mac\Home\Desktop\LynXLite\board\netlist.log")))
   (PartMRUSelector
+    (HEADER-2x4
+      (FullPartName "HEADER-2x4.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (HEADER-4
+      (FullPartName "HEADER-4.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
     (FORO-VITE-M3
       (FullPartName "FORO-VITE-M3.Normal")
       (LibraryName
@@ -173,11 +184,6 @@
       (DeviceIndex "0"))
     (PORTBOTH-R
       (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (HEADER-4
-      (FullPartName "HEADER-4.Normal")
-      (LibraryName
-         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
       (DeviceIndex "0"))
     (JUMPER_GOCCIA
       (FullPartName "JUMPER_GOCCIA.Normal")
@@ -248,54 +254,43 @@
       (DeviceIndex "0"))
     (PORTNO-R
       (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTNO-L
-      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\lynx_lite.dsn")
-      (Path "Design Resources" ".\lynx_lite.dsn" "A-MAIN")
-      (Path "Design Resources" ".\lynx_lite.dsn" "E-INTERFACES")
+      (Path "Design Resources"
+         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn")
+      (Path "Design Resources"
+         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn" "B-MCU")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\lynx_lite.dsn" "A-MAIN"))
+      (Select "Design Resources"
+         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 681"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 501"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1122 24 699")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 519")
         (Scroll "0 0")
-        (Zoom "127")
-        (Occurrence "/"))
-      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
-      (Schematic "A-MAIN")
-      (Page "A1-BLOCK_DIAGRAM"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1122 24 699")
-        (Scroll "0 0")
-        (Zoom "237")
-        (Occurrence "/D-T1S"))
-      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
-      (Schematic "D-T1S")
-      (Page "D1-T1S_MACPHY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1122 24 699")
-        (Scroll "0 0")
-        (Zoom "237")
+        (Zoom "100")
         (Occurrence "/C-POWER"))
-      (Path "C:\MAC\HOME\DESKTOP\LYNX_LITE\SCHEME\LYNX_LITE.DSN")
+      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
       (Schematic "C-POWER")
-      (Page "C1-REGULATORS"))))
+      (Page "C1-REGULATORS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 519")
+        (Scroll "0 216")
+        (Zoom "200")
+        (Occurrence "/B-MCU"))
+      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
+      (Schematic "B-MCU")
+      (Page "B1-MCU_SIGNALS"))))
