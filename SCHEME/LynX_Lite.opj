@@ -1,6 +1,6 @@
 (ExpressProject "LynX_Lite"
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/10/26]")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/13/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -117,6 +117,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\lynx_lite.drc"
+      (Type "Report"))
+    (File "\\mac\home\desktop\lynxlite\scheme\lynx_lite.drc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -144,6 +146,34 @@
       (Type "Log File")
       (LogFile "\\Mac\Home\Desktop\LynXLite\board\netlist.log")))
   (PartMRUSelector
+    (CONNECTOR-USB-C-16
+      (FullPartName "CONNECTOR-USB-C-16.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (USBC-12402054M611A
+      (FullPartName "USBC-12402054M611A.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (USBLC6-2
+      (FullPartName "USBLC6-2.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (HEADER-3
+      (FullPartName "HEADER-3.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM32G473CETx
+      (FullPartName "STM32G473CETx.Normal")
+      (LibraryName
+         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
+      (DeviceIndex "0"))
     (HEADER-2x4
       (FullPartName "HEADER-2x4.Normal")
       (LibraryName
@@ -163,9 +193,6 @@
       (FullPartName "DIODE - SCHOTTKY.Normal")
       (LibraryName
          "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (HEADER-8
       (FullPartName "HEADER-8.Normal")
@@ -233,82 +260,49 @@
       (FullPartName "HEADER-2x3.Normal")
       (LibraryName
          "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
-      (DeviceIndex "0"))
-    (HEADER-SWD
-      (FullPartName "HEADER-SWD.Normal")
-      (LibraryName
-         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (FUSE
-      (FullPartName "FUSE.Normal")
-      (LibraryName
-         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
-      (DeviceIndex "0"))
-    ("SCHOTTKY RECTIFIER - CD-HD2x"
-      (FullPartName "SCHOTTKY RECTIFIER - CD-HD2x.Normal")
-      (LibraryName
-         "C:\MAC\HOME\DOCUMENTS\DOCUMENTSWIN\PCB_LIBS\CAPTURE_LIB\DYNAMIS_NEW.OLB")
-      (DeviceIndex "0"))
-    (PORTNO-R
-      (LibraryName "C:\CADENCE\SPB_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn")
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn")
+      (Path "Design Resources"
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn" "A-MAIN")
+      (Path "Design Resources"
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn" "B-MCU")
+      (Path "Design Resources"
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn" "D-T1S")
+      (Path "Design Resources"
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn" "E-INTERFACES")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
       (Select "Design Resources"
-         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn"))
+         "c:\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 311 0 726"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 671"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1083 24 744")
-        (Scroll "0 216")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 5 24 5 1464 24 689")
+        (Scroll "339 543")
+        (Zoom "192")
         (Occurrence "/B-MCU"))
-      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
+      (Path "C:\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
       (Schematic "B-MCU")
       (Page "B1-MCU_SIGNALS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1083 24 744")
-        (Scroll "0 42")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1464 24 689")
+        (Scroll "-152 0")
+        (Zoom "96")
         (Occurrence "/"))
-      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
+      (Path "C:\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
       (Schematic "A-MAIN")
-      (Page "A1-BLOCK_DIAGRAM"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1083 24 744")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/E-INTERFACES"))
-      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
-      (Schematic "E-INTERFACES")
-      (Page "E1-CAN_USB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1083 24 744")
-        (Scroll "0 59")
-        (Zoom "100")
-        (Occurrence "/D-T1S"))
-      (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
-      (Schematic "D-T1S")
-      (Page "D1-T1S_MACPHY"))))
+      (Page "A1-BLOCK_DIAGRAM"))))
