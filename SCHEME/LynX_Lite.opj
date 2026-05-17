@@ -1,6 +1,6 @@
 (ExpressProject "LynX_Lite"
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/16/26]")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[05/17/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -263,23 +263,25 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "\\Mac\Home\Desktop\LynXLite\SCHEME\lynx_lite.dsn")
+         "\\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources"
+         "\\mac\home\desktop\lynxlite\scheme\lynx_lite.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 726"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1103"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 744")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 2030 24 1121")
+        (Scroll "-265 -16")
+        (Zoom "125")
         (Occurrence "/"))
       (Path "\\MAC\HOME\DESKTOP\LYNXLITE\SCHEME\LYNX_LITE.DSN")
       (Schematic "A-MAIN")
